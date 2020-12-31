@@ -1,0 +1,4 @@
+dist/
+mockup/
+.env
+node_modules/
