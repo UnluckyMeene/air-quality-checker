@@ -141,6 +141,11 @@ class Station {
             verdicsts[1].src = `images/icon-pack/${grade}.svg`;
         } else return;
     }
+
+    changeDOM() {
+        station.domManipulation(cityName, spanValues, verdictList, mainSection, instructions);
+        station.changeVerdict(verdictList);
+    }
 }
 
 const station = new Station();
@@ -174,7 +179,7 @@ form.addEventListener("submit", (event) => {
     event.preventDefault();
     station.fetchData(form.txtCity.value)
         .then(report => {
-                changeDOM();
+                station.changeDOM();
             },
             reject => alert("Try to insert a valid station or geolocate yourself"));
     form.txtCity.value = "";
@@ -186,13 +191,8 @@ geoButton.addEventListener("click", (event) => {
     navigator.geolocation.getCurrentPosition((position) => {
         station.fetchData(position.coords.latitude, position.coords.longitude)
             .then(report => {
-                changeDOM()
+                station.changeDOM();
             });
         form.txtCity.focus()
     });
 });
-
-function changeDOM(...args) {
-    station.domManipulation(cityName, spanValues, verdictList, mainSection, instructions);
-    station.changeVerdict(verdictList);
-}
