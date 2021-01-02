@@ -74,7 +74,6 @@ class Station {
             for (let index in report.iaqi) {
                 switch (index) {
                     case "no2":
-                    case "co":
                     case "h":
                     case "t":
                         this.report[index] = report.iaqi[index].v;
@@ -105,10 +104,6 @@ class Station {
 
                     case "no2":
                         spanList[index].textContent = this.report["no2"];
-                        break;
-
-                    case "co":
-                        spanList[index].textContent = this.report["co"];
                         break;
 
                     case "pressure":

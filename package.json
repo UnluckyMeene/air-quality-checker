@@ -1,7 +1,6 @@
 {
   "name": "ap",
   "version": "1.0.0",
-  "description": "",
   "private": true,
   "scripts": {
     "build": "webpack"
@@ -12,7 +11,17 @@
   "devDependencies": {
     "dotenv-webpack": "^6.0.0",
     "webpack": "^5.11.1",
-    "webpack-cli": "^4.3.0"
+    "webpack-cli": "^4.3.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UnluckyMeene/air-quality-checker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UnluckyMeene/air-quality-checker/issues"
+  },
+  "homepage": "https://github.com/UnluckyMeene/air-quality-checker#readme",
+  "description": ""
 }
