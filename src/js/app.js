@@ -143,8 +143,8 @@ class Station {
     }
 
     changeDOM() {
-        this..domManipulation(cityName, spanValues, verdictList, mainSection, instructions);
-        this..changeVerdict(verdictList);
+        this.domManipulation(cityName, spanValues, verdictList, mainSection, instructions);
+        this.changeVerdict(verdictList);
     }
 }
 
