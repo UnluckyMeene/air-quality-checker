@@ -156,6 +156,7 @@ let cityName = document.querySelector("#city");
 let spanValues = document.querySelectorAll(".result");
 let verdictList = document.querySelectorAll(".verdict");
 
+
 discoverMoreBtn.addEventListener("click", (event) => {
     if (infoBox.style.display === "block") {
         infoBox.style.display = "none";
@@ -171,11 +172,9 @@ document.addEventListener("DOMContentLoaded", (event) => form.txtCity.focus());
 
 form.addEventListener("submit", (event) => {
     event.preventDefault();
-
     station.fetchData(form.txtCity.value)
         .then(report => {
-                station.domManipulation(cityName, spanValues, verdictList, mainSection, instructions);
-                station.changeVerdict(verdictList);
+                changeDOM();
             },
             reject => alert("Try to insert a valid station or geolocate yourself"));
     form.txtCity.value = "";
@@ -185,12 +184,15 @@ form.addEventListener("submit", (event) => {
 
 geoButton.addEventListener("click", (event) => {
     navigator.geolocation.getCurrentPosition((position) => {
-        console.log(position.coords.latitude, position.coords.longitude);
         station.fetchData(position.coords.latitude, position.coords.longitude)
             .then(report => {
-                station.domManipulation(cityName, spanValues, verdictList, mainSection, instructions);
-                station.changeVerdict(verdictList);
+                changeDOM()
             });
         form.txtCity.focus()
     });
 });
+
+function changeDOM(...args) {
+    station.domManipulation(cityName, spanValues, verdictList, mainSection, instructions);
+    station.changeVerdict(verdictList);
+}
