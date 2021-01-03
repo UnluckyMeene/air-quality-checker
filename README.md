@@ -25,7 +25,7 @@
 ## Riguardo il progetto
 
 <img src="https://i.imgur.com/JaEGWuv.png"/>
-Si tratta di un'app che permette di ottenere informazioni sui livelli di inquinamento di una città. Realizzata come progetto JavaScript Advanced per [start2impact](https://start2impact.it/)
+Si tratta di un'app che permette di ottenere informazioni sui livelli di inquinamento di una città. Realizzata come progetto JavaScript Advanced per <a href="https://start2impact.it/">start2impact</a>.
 
 
 ### Realizzato con
