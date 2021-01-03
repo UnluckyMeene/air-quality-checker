@@ -13,7 +13,7 @@
     Progetto realizzato per la Super Guida JavaScript Advanced
     <br />
     <br />
-    <a href="https://air-quality-checker.netlify.app">Live Demo</a>
+    <a href="https://air-quality-checker.netlify.app" target="_blank">Live Demo</a>
     ·
     <a href="https://github.com/UnluckyMeene/air-quality-checker/issues">Segnala bug</a>
   </p>
@@ -24,7 +24,7 @@
 <!-- RIGUARDO IL PROGETTO -->
 ## About
 
-<a href="https://air-quality-checker.netlify.app/"><img src="https://i.imgur.com/JaEGWuv.png"/></a>
+<a href="https://air-quality-checker.netlify.app/" target="_blank"><img src="https://i.imgur.com/JaEGWuv.png"/></a>
 Si tratta di un'app che permette di ottenere informazioni sui livelli di inquinamento di una città. Realizzata come progetto JavaScript Advanced per <a href="https://start2impact.it/">start2impact</a>.
 
 
