@@ -16,25 +16,8 @@
     <a href="https://air-quality-checker.netlify.app">Live Demo</a>
     ·
     <a href="https://github.com/UnluckyMeene/air-quality-checker/issues">Segnala bug</a>
-    ·
   </p>
 </p>
-
-
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
-  <ol>
-    <li>
-      <a href="#about">Riguardo il progetto</a>
-      <ul>
-        <li><a href="#src">Realizzato con</a></li>
-      </ul>
-    </li>
-    <li><a href="#contatti">Contatti</a></li>
-  </ol>
-</details>
 
 
 
@@ -49,7 +32,7 @@ Un'app che permette di ottenere informazioni sui livelli di inquinamento di una 
 ### Realizzato con
 
 * [Bootstrap](https://getbootstrap.com/)
-* [Vanilla JavaScript]
+* Vanilla JavaScript
 
 
 
