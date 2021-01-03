@@ -24,8 +24,7 @@
 <!-- RIGUARDO IL PROGETTO -->
 ## Riguardo il progetto
 
-[![Product Name Screen Shot][product-screenshot]](https://i.imgur.com/JaEGWuv.png)
-
+<img src="https://i.imgur.com/JaEGWuv.png"/>
 Un'app che permette di ottenere informazioni sui livelli di inquinamento di una città.
 
 
