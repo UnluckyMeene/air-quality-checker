@@ -39,8 +39,7 @@ Si tratta di un'app che permette di ottenere informazioni sui livelli di inquina
 ## Contatti
 
 Matteo Minerva - [@unmeene](https://twitter.com/unmeene) - m.minerva@outlook.it
-
-Project Link: [https://github.com/UnluckyMeene/air-quality-checker](https://github.com/UnluckyMeene/air-quality-checker)
+Profilo start2impact: [https://talent.start2impact.it/profile/matteo-minerva](https://talent.start2impact.it/profile/matteo-minerva)
 
 
 
