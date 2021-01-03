@@ -65,7 +65,7 @@ Project Link: [https://github.com/UnluckyMeene/air-quality-checker](https://gith
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[issues-shield]: https://img.shields.io/github/issues/UnluckyMeene/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/UnluckyMeene/air-quality-checker/repo.svg?style=for-the-badge
 [issues-url]: https://github.com/UnluckyMeene/repo/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/UnluckyMeene
