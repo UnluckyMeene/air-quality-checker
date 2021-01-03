@@ -1,6 +1,6 @@
 <!-- PROJECT SHIELDS -->
 [Issues][issues-shield][https://github.com/UnluckyMeene/air-quality-checker/issues]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/m-minerva/]
+[LinkedIn][linkedin-shield]][https://www.linkedin.com/in/m-minerva/]
 
 
 
